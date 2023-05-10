@@ -1,0 +1,119 @@
+body{
+    font-family: 'Inter', sans-serif;
+    padding: 5%
+}
+h1{
+    margin: 0;
+}
+.car-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.variant {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.price{
+    font-size: 2.5rem;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.header-title{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 0.5rem;
+}
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1%;
+    margin-top: 5%;
+}
+.feature{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+}
+.feature:nth-child(1),
+.feature:nth-child(2),
+.feature:nth-child(4),
+.feature:nth-child(5){
+    border-right: 2px solid #ACACAC33;
+}
+
+.feature:nth-child(1),
+.feature:nth-child(2),
+.feature:nth-child(3){
+    border-bottom: 2px solid #ACACAC33;
+}
+
+.feature-icon{
+    scale: 1.5;
+}
+
+.spinny-icon{
+    scale: 1.5;
+    padding: 1rem 1rem 3rem;
+}
+.feature-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+.feature-name{
+    font-size: 1.25rem;
+    font-weight: 450;
+}
+.feature-value{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.footer-name{
+    font-size: 1.25rem;
+    font-weight: 450;
+}
+.footer-value{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 10%;
+    align-items: center;
+}
+.qr-code{
+    height: 50%;
+    width: 50%;
+}
+.registration-number{
+    font-size: 1rem;
+    margin-top: 8%;
+}
+@media print {
+    body{
+        width: 21cm;
+        height: 29.7cm;
+        margin: 30mm 45mm 30mm 45mm; 
+        /* change the margins as you want threm to be. */
+} 
+}
